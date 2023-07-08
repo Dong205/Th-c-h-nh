@@ -1,0 +1,12 @@
+
+.website a [target] {
+    color: red;
+}
+.website a[href="https://fullstack.edu.vn"]{
+    color: red;
+}
+.img a[href$=".jpg"]{
+    color: red;
+}
+
+[clas]

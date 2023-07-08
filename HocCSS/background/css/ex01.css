@@ -1,0 +1,13 @@
+body {
+    height: 2000px;
+    background-color: bisque;
+    background-image: url(https://fastly.picsum.photos/id/536/1500/600.jpg?hmac=ZVnIGUbJrv3Orv0aSPHqDyn3XI9JSFfOz00BT_bOPOM);
+    /* background-repeat: no-repeat;
+    background-position: 0 0; */
+    /* background-size:cover; */
+    /* background-attachment: fixed; */
+    
+}
+/* .box {
+    background-color: aqua;
+} */

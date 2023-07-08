@@ -1,0 +1,37 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 30px auto;
+}
+.item{
+   background: green;
+    color: #fff;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.item:nth-child(2){
+ /*   position: relative;
+    top: 30px;
+    left: 50px;
+    z-index: 1;*/ 
+    /* position: ; */
+ /*   left: 0;*/
+    right: 50px;
+ /*   top: 20px;*/
+    bottom: 20px;
+  /*  width: auto;*/
+}
+
+.item:nth-child(3){
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

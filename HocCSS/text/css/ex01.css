@@ -1,0 +1,16 @@
+/* .content {
+    color: red;
+} */
+.content {
+    color: rgb(179, 19, 19);
+}
+
+/* .box {
+    color: red;
+} */
+.body {
+    color: green;
+}
+.content p:hover {
+color: initial;
+}

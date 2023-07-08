@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form 
+        action="https://api-gateway.fullstack.edu.vn/action_page.php"
+        method="post"
+        >
+        <div>
+            <input type="text" name="Tên" placeholder="Họ và tên">
+        </div>
+        <div>
+            <input type="text" name="Mail" placeholder="Email">
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+
+    <form action="">
+        <div>
+            <label for="name">Tên</label>
+            <input 
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Họ và Tên"
+            required
+            />
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input 
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Mật khẩu"
+            />
+        </div>
+        <div>
+            <label for="age">Tuổi</label>
+            <input 
+            type="number"
+            name="age"
+            id="age"
+            placeholder="Tuổi..."
+            min="18"
+            max="50"
+            step="0.1"
+            />
+        </div>
+        <div>
+            <label for="avatar">avatar</label>
+            <input 
+            type="file"
+            name="avatar"
+            id="avatar"
+            />
+        </div>
+        <div>
+            <label>Giới tính</label>
+            <label>
+                <input type="radio" name="gender" value="0"/> Không xác định 
+            </label>
+            <label>
+                <input type="radio" name="gender" value="1" checked/> Nam
+            </label>
+            <label>
+                <input type="radio" name="gender" value="2"/> Nữ
+            </label>
+        </div>
+        <div>
+            <label>Nguồn</label>
+            <label>
+                <input type="checkbox" name="source" value="1" checked/> facebook 
+            </label>
+            <label>
+                <input type="checkbox" name="source" value="2"/> Google
+            </label>
+            <label>
+                <input type="checkbox" name="source" value="3"/> Khác
+            </label>
+        </div>
+        <div>
+            <label for="message">Tin nhắn</label>
+           <textarea name="message"
+           id="message"
+           placeholder="Tin nhắn"
+           cols="30"
+           rows="10">
+            </textarea>
+        </div>
+        <div>
+            <label for="provinces">Tỉnh/Thành phố</label>
+            <select name="provinces" id="provinces">
+                <option value="0" hidden>Chọn Tỉnh/Thành phố</option>
+                <optgroup label="Miền Bắc">
+                    <option value="1">Hà Nội</option>
+                    <option value="2">Thái Bình</option>
+                    <option value="3">Nam Định</option>
+                </optgroup>
+                <optgroup label="Miền Trung">
+                <option value="4">Thanh Hóa</option>
+                <option value="5">Nghệ An</option>
+                </optgroup>
+                <optgroup label="Miền Nam">
+                <option value="6">Vũng Tàu</option>
+                <option value="7">TP HCM</option>
+                </optgroup>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

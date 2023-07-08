@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: 
+#333;
+}
+.Heart-shaped {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    background:
+#f00;
+}
+.Heart-shaped::before,
+.Heart-shaped::after {
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: inherit;
+    border-radius: 50%;
+}
+.Heart-shaped::before {
+    top: -20 px;
+    left: -50%;
+}
+.Heart-shaped::after {
+    top: -50%;
+    left: 0;
+}

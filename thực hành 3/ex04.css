@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+  background-color: 
+#333;
+  margin: 16px auto;
+  padding: 4px;
+}
+.box .content {
+  max-width: 300px;
+  color: 
+#fff;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  background-color: 
+#f00;
+}
+.float {
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: flex-end;
+  shape-outside: inset(calc(100% - 200px) 0 0);
+}

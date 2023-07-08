@@ -1,0 +1,20 @@
+/* .title:hover {
+    color: red;
+}
+
+.title:active {
+    color: green;
+}
+
+.btn:focus, field-item:focus {
+    background: blueviolet;
+}
+
+
+.item:disabled {
+    background: #333;
+} */
+
+.products h2:not(.active):not(.first){
+    color: red;
+}
